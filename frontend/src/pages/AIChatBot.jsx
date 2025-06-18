@@ -12,7 +12,7 @@ function AIChatBot() {
     setMessages((prev) => [...prev, userMessage]);
 
     try {
-      const response = await fetch('http://localhost:5000/chat', {
+      const response = await fetch('https://real-time-multiplayer-backend.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: input }),
