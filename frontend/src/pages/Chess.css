@@ -1,0 +1,51 @@
+.chess-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 100vh; /* Full page height */
+  background-color: #0f172a;
+  padding: 2rem;
+  color: white;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+.chess-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem; /* Bigger margin so it won’t touch the board */
+  text-align: center;
+  color: #60a5fa; /* nice blue for title */
+}
+
+.chess-board-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+.chess-status {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #facc15; /* yellow status */
+  text-align: center;
+}
+
+.chess-buttons {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #3b82f6;
+}
