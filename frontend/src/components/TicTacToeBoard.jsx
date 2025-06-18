@@ -6,7 +6,7 @@ import './TicTacToeBoard.css';
 // Sound file (you should place preview.mp3 inside "public/sounds/preview.mp3")
 const winningSound = new Audio('/sounds/preview.mp3');
 
-const socket = io('http://localhost:5000');
+const socket = io('https://real-time-multiplayer-backend.onrender.com');
 
 function TicTacToeBoard() {
   const [squares, setSquares] = useState(Array(9).fill(null));
