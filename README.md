@@ -35,7 +35,7 @@ Clone the repo
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/gamehub.git
+git clone https://github.com/akashgupta213/REAL-TIME-MULTIPLAYER
 cd gamehub
 Install dependencies for the backend
 bash
